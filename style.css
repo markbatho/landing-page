@@ -21,7 +21,7 @@ nav {
 
 nav ul {
   display: flex;
-  gap: 18px;
+  gap: 22px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -37,4 +37,53 @@ nav ul a {
   font-size: 24px;
   font-weight: bold;
   color: #F9FAF8;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 96px 16px;
+  background-color: #1F2937;
+}
+
+.hero .container {
+  align-items: center;
+  gap: 52px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hero-text h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.hero-text p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-text button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: 0;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 32px;
+  cursor: pointer;
+  max-width: fit-content;
+}
+
+.hero-img {
+  width: 100%;
 }
