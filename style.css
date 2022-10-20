@@ -93,12 +93,12 @@ nav ul a {
 
 .information {
   display: flex;
-  padding: 48px 16px;
+  padding: 64px 16px;
 }
 
 .information .container {
   flex-direction: column;
-  gap: 48px;
+  gap: 64px;
   text-align: center;
 }
 
@@ -133,4 +133,33 @@ nav ul a {
   width: 100%;
   object-fit: cover;
   border-radius: 8px;
+}
+
+.quote {
+  display: flex;
+  background-color: #E5E7EB;
+  padding: 64px 16px;
+}
+
+.quote .container {
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+blockquote {
+  margin: 0;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1F2937;
+}
+
+cite {
+  align-self: flex-end;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  color: #1F2937;
+  margin-right: 36px;
 }
