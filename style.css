@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1024px;
+  width: 992px;
   margin: auto;
 }
 
@@ -97,12 +97,12 @@ nav ul a {
 
 .information {
   display: flex;
-  padding: 64px 16px;
+  padding: 72px 16px;
 }
 
 .information .container {
   flex-direction: column;
-  gap: 64px;
+  gap: 48px;
   text-align: center;
 }
 
@@ -124,7 +124,8 @@ nav ul a {
 .box {
   display: flex;
   flex-direction: column;
-  width: 200px;
+  align-items: center;
+  width: 150px;
   text-align: center;
 }
 
@@ -133,7 +134,7 @@ nav ul a {
 }
 
 .box img {
-  height: 200px;
+  height: 150px;
   width: 100%;
   object-fit: cover;
   border-radius: 8px;
@@ -142,7 +143,7 @@ nav ul a {
 .quote {
   display: flex;
   background-color: #E5E7EB;
-  padding: 64px 16px;
+  padding: 96px 16px;
 }
 
 .quote .container {
@@ -170,13 +171,13 @@ cite {
 
 .cta {
   display: flex;
-  padding: 64px 16px;
+  padding: 72px 16px;
 }
 
 .cta .container {
   background-color: #3882F6;
   border-radius: 8px;
-  padding: 32px 72px;
+  padding: 48px 72px;
 }
 
 .cta-text {
